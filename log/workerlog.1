@@ -1,0 +1,20 @@
+W1123 20:45:25.962155 40348 device_context.cc:447] Please NOTE: device: 1, GPU Compute Capability: 7.0, Driver API Version: 11.2, Runtime API Version: 11.2
+W1123 20:45:25.963253 40348 device_context.cc:465] device: 1, cuDNN Version: 8.1.
+I1123 20:45:42.506112 40348 gen_comm_id_helper.cc:190] Server listening on: 127.0.0.1:48527 successful.
+I1123 20:45:42.674787 40348 nccl_context.cc:74] init nccl context nranks: 2 local rank: 1 gpu id: 1 ring id: 0
+I1123 20:45:42.811494 40348 nccl_context.cc:107] init nccl context nranks: 2 local rank: 1 gpu id: 1 ring id: 10
+2021-11-23 20:45:42,845-INFO: [topology.py:169:__init__] HybridParallelInfo: rank_id: 1, mp_degree: 1, sharding_degree: 1, pp_degree: 1, dp_degree: 2, mp_group: [1],  sharding_group: [1], pp_group: [1], dp_group: [0, 1], check/clip group: [1]
+/data/home/scv3235/.local/lib/python3.8/site-packages/paddle/fluid/dygraph/math_op_patch.py:251: UserWarning: The dtype of left and right variables are not the same, left dtype is paddle.float32, but right dtype is paddle.int64, the right dtype will convert to paddle.float32
+  warnings.warn(
+/data/home/scv3235/.local/lib/python3.8/site-packages/paddle/fluid/dygraph/math_op_patch.py:251: UserWarning: The dtype of left and right variables are not the same, left dtype is paddle.int32, but right dtype is paddle.bool, the right dtype will convert to paddle.int32
+  warnings.warn(
+W1123 20:55:19.811780 43815 device_context.cc:447] Please NOTE: device: 1, GPU Compute Capability: 7.0, Driver API Version: 11.2, Runtime API Version: 11.2
+W1123 20:55:19.812937 43815 device_context.cc:465] device: 1, cuDNN Version: 8.1.
+I1123 20:55:31.530783 43815 gen_comm_id_helper.cc:190] Server listening on: 127.0.0.1:39890 successful.
+I1123 20:55:34.698917 43815 nccl_context.cc:74] init nccl context nranks: 4 local rank: 1 gpu id: 1 ring id: 0
+I1123 20:55:34.979440 43815 nccl_context.cc:107] init nccl context nranks: 4 local rank: 1 gpu id: 1 ring id: 10
+2021-11-23 20:55:35,140-INFO: [topology.py:169:__init__] HybridParallelInfo: rank_id: 1, mp_degree: 1, sharding_degree: 1, pp_degree: 1, dp_degree: 4, mp_group: [1],  sharding_group: [1], pp_group: [1], dp_group: [0, 1, 2, 3], check/clip group: [1]
+/data/home/scv3235/.local/lib/python3.8/site-packages/paddle/fluid/dygraph/math_op_patch.py:251: UserWarning: The dtype of left and right variables are not the same, left dtype is paddle.float32, but right dtype is paddle.int64, the right dtype will convert to paddle.float32
+  warnings.warn(
+/data/home/scv3235/.local/lib/python3.8/site-packages/paddle/fluid/dygraph/math_op_patch.py:251: UserWarning: The dtype of left and right variables are not the same, left dtype is paddle.int32, but right dtype is paddle.bool, the right dtype will convert to paddle.int32
+  warnings.warn(
